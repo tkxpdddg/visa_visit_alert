@@ -11,8 +11,8 @@ def play_alert_sound():
     playsound(sound_file)
 
 # Aug 1 is fly to Portugal date
-trip_date = datetime(2024, 7, 25)  # What is the latest appointment you want? 
-sessions_token = "https://www.ch-edoc-reservation.admin.ch/#/session?token=XXXXXXXXXXXXXXX" # Obtain this link from the email directly
+trip_date = datetime(2025, 3, 20)  # What is the latest appointment you want? 
+sessions_token = "https://www.ch-edoc-reservation.admin.ch/#/session?token=kjWjvRFz&locale=en-US" # Obtain this link from the email directly
 
 while True:
     try:
